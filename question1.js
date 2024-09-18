@@ -1,4 +1,3 @@
-//function
 function sum(arr,num){
     let ivalue=0
     let jvalue=0
