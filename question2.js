@@ -1,9 +1,12 @@
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  }
+
 function titleCase(string){
     let newstr=""
     string=string.split(" ")
     for (let i=0;i<string.length;i++){
-        newstr+=string[i][0].toUpperCase()
-        newstr+=string[i].substring(1)
+        newstr+=capitalizeFirstLetter(string[i])
         newstr+=" "
     }
     return newstr
