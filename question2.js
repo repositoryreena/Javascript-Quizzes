@@ -9,7 +9,7 @@ function titleCase(string){
         newstr+=capitalizeFirstLetter(string[i])
         newstr+=" "
     }
-    return newstr
+    return newstr.trim()
 }
 
 console.log(titleCase("hello world"))
