@@ -2,7 +2,7 @@ function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
 
-function titleCase(string){
+function checkTitleCase(string){
     let newstr=""
     string=string.split(" ")
     for (let i=0;i<string.length;i++){
@@ -12,4 +12,4 @@ function titleCase(string){
     return newstr.trim()
 }
 
-console.log(titleCase("hello world"))
+console.log(checkTitleCase("hello world"))
