@@ -7,7 +7,9 @@ function debounce(func, timeout = 500) {
       }, timeout);
     };
   }
+
   function fetchResults() {
     console.log("Fetching input suggestions");
   }
+  
   const processChange = debounce(() => fetchResults());

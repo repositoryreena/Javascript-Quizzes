@@ -1,8 +1,6 @@
-function checkPalindrome(string){
-    
-    let reversedstring = string.split("").reverse().join("")
-    return string===reversedstring
+function checkPalindrome(string) {
+    var reversedstring = string.split("").reverse().join("");
+    return string === reversedstring;
 }
-
-console.log(checkPalindrome("dad"))
-console.log(checkPalindrome("Git"))
+console.log(checkPalindrome("dad"));
+console.log(checkPalindrome("Git"));
